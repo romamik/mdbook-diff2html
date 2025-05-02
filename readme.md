@@ -33,6 +33,8 @@ index 0000000..ea8c4bf
 And the result should look like this:
 ![mdbook with diff2html](screenshot.png)
 
+The test book from this repository is available at [https://romamik.github.io/mdbook-diff2html/](https://romamik.github.io/mdbook-diff2html/).
+
 ## License
 
 Public domain.

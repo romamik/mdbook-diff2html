@@ -10,7 +10,6 @@
         };
 
         document.querySelectorAll('.language-diff2html').forEach((codeElement) => {
-            console.log(codeElement)
             const diffString = codeElement.textContent.trim();
 
             const div = document.createElement('div')

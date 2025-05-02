@@ -62,7 +62,7 @@
     });
 
     loadScript(scriptUrl).then(() => {
-        if (document.readyState === 'loadinf') {
+        if (document.readyState === 'loading') {
             document.addEventListener('DOMContentLoaded', () => {
                 processDiffs();
             });

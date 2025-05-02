@@ -10,7 +10,7 @@ This small project allows you to use **diff2html** to render diffs directly insi
 
 1. Put the `diff2html.js` file from this repository next to your `book.toml` file. 
 
-2. In `book.toml`, add `diffhtml.js` to `additional-js` array under the `[output.html]` section:
+2. In `book.toml`, add `diff2html.js` to `additional-js` array under the `[output.html]` section:
 ```toml
 [output.html]
 additional-js=["diff2html.js"]

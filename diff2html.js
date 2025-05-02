@@ -20,18 +20,18 @@
 
             const shadow = div.attachShadow({ mode: 'open' });
             shadow.innerHTML = `
-                    <link
-                        rel="stylesheet"
-                        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css"
-                        media="screen and (prefers-color-scheme: light)"
-                    />
-                    <link
-                        rel="stylesheet"
-                        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css"
-                        media="screen and (prefers-color-scheme: dark)"
-                    />
-                    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/diff2html/bundles/css/diff2html.min.css" />
-                    <style>
+                <link
+                    rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css"
+                    media="screen and (prefers-color-scheme: light)"
+                />
+                <link
+                    rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css"
+                    media="screen and (prefers-color-scheme: dark)"
+                />
+                <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/diff2html/bundles/css/diff2html.min.css" />
+                <style>
                     :host {
                         all: initial;
                     }

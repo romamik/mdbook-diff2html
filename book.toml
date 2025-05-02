@@ -1,0 +1,9 @@
+[book]
+authors = ["Roman Miklashevskii"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Embedding diff2html into the mdbook"
+
+[output.html]
+additional-js=["diff2html.js"]
